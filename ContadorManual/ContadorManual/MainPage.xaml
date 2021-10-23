@@ -12,8 +12,8 @@
         </Frame>
 
         <StackLayout>
-            <Button Text="Contar" FontSize="Medium" x:Name="ContarButton"></Button>
-            <Button Text="Reiniciar" FontSize="Medium" x:Name="ReiniciarButton"></Button>
+            <Button Text="Contar" FontSize="Medium" x:Name="ContarButton" Clicked="ContarButton_Clicked"></Button>
+            <Button Text="Reiniciar" FontSize="Medium" x:Name="ReiniciarButton" Clicked="ReiniciarButton_Clicked"></Button>
         </StackLayout>
     </StackLayout>    
     
